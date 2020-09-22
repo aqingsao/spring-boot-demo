@@ -10,6 +10,8 @@ import javax.validation.constraints.NotNull;
 
 import org.hibernate.sql.Update;
 
+import com.demo.constant.BookTypeEnum;
+
 import lombok.Data;
 
 /**
@@ -28,7 +30,21 @@ public class BookEntity {
     @Column(name = "name")
     private String name;
 
+    @Column(name = "type")
+    private BookTypeEnum type;
+
     @Column(name = "price")
     private double price;
 
+    @Column(name = "create_user")
+    private String createUser;
+
+    @Column(name = "create_time")
+    private Long createTime;
+
+    @Column(name = "update_user")
+    private String updateUser;
+
+    @Column(name = "update_time")
+    private Long updateTime;
 }

@@ -4,6 +4,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
 import com.demo.constant.BookTypeEnum;
+import com.demo.domain.entity.BookEntity;
 
 import lombok.Data;
 
@@ -21,4 +22,16 @@ public class CreateBookReqData {
     private BookTypeEnum type;
 
     private double price;
+
+    public BookEntity toEntity() {
+        BookEntity entity = new BookEntity();
+        entity.setName(this.name);
+        entity.setType(this.type);
+        entity.setPrice(this.price);
+        entity.setCreateUser("xxx");
+        entity.setCreateTime(System.currentTimeMillis());
+        entity.setUpdateUser("xxx");
+        entity.setUpdateTime(System.currentTimeMillis());
+        return entity;
+    }
 }

@@ -10,7 +10,8 @@ import lombok.Getter;
 @AllArgsConstructor
 @Getter
 public enum OkStatusMessage implements IStatusMessage {
-    OK(200, "success");
+    OK(200, "success"),
+    BOOK_NOT_EXIST(300, "not exist");
 
     private final int code;
     private final String message;

@@ -1,7 +1,6 @@
 package com.demo.common;
 
 /**
- * @author zhangxiaoqing@kuaishou.com
  * Created on 2020-07-07
  */
 

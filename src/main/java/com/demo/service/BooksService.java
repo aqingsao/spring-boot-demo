@@ -11,7 +11,6 @@ import com.demo.domain.data.UpdateBookReqData;
 import com.demo.domain.entity.BookEntity;
 
 /**
- * @author zhangxiaoqing@kuaishou.com
  * Created on 2020-09-22
  */
 public interface BooksService {

@@ -29,7 +29,5 @@ HELP.md
 **/.flattened-pom.xml
 
 target
-
-kuaishou-ptp-component/src/main/resources/static/
 logs/
 

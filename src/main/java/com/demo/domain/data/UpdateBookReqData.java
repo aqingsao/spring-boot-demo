@@ -8,7 +8,6 @@ import com.demo.constant.BookTypeEnum;
 import lombok.Data;
 
 /**
- * @author zhangxiaoqing@kuaishou.com
  * Created on 2020-09-22
  */
 @Data

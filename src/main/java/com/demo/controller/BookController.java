@@ -29,8 +29,6 @@ import com.demo.service.BooksService;
  * Controller所有方法均返回ResultBody结构，示例：
  * {status: 0, message: XXX, data: {}}
  *
- * @author zhangxiaoqing@kuaishou.com
- * Created on 2020-09-22
  */
 @RestController
 @EnableAutoConfiguration

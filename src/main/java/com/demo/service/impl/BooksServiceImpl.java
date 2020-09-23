@@ -24,7 +24,6 @@ import com.demo.service.BooksService;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * @author zhangxiaoqing@kuaishou.com
  * Created on 2020-09-22
  */
 @Service

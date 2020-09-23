@@ -12,7 +12,6 @@ import com.demo.constant.BookTypeEnum;
 import com.demo.domain.entity.BookEntity;
 
 /**
- * @author mengxianghezhe <mengxianghezhe@kuaishou.com>
  * Created on 2020-09-02
  */
 public interface BookRepository extends JpaRepository<BookEntity, Long>, CrudRepository<BookEntity, Long> {
